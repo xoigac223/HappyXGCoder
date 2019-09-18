@@ -29,7 +29,7 @@ animation: "slide-from-top",
  inputPlaceholder: "Mã xác nhận là gì?" },
  function(inputValue){   
 if (inputValue === false) return false;   
-   if (inputValue !== "huyền") {   
+   if (inputValue !== "kieulight") {   
   swal.showInputError("Nhập sai rồi kìa :v");   
   return false   }   
  
