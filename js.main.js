@@ -5,13 +5,13 @@ setTimeout(function(){
 
 swal({  
 
- title: "Bạn nhận được một món quà !",   
+ title: "Bạn nhận được một món quà!",   
 text: "ĐẠO NGUYỄN vừa gửi bạn một món quà đặc biệt nhân ngày sinh nhật của bạn ", 
  imageUrl: "https://graph.facebook.com/100016134793140/picture?type=large",
   showCancelButton: true,
    confirmButtonColor: "#DD6B55", 
-  confirmButtonText: "Nhận quà ngay",
-   cancelButtonText: "Không cần, cám ơn .", 
+  confirmButtonText: "Nhận quà ngay!",
+   cancelButtonText: "Không cần, cám ơn.", 
   closeOnConfirm: false,  
  closeOnCancel: false }, 
 function(isConfirm){  
@@ -26,11 +26,11 @@ swal({
  closeOnConfirm: false,   
  showLoaderOnConfirm: true,
 animation: "slide-from-top",  
- inputPlaceholder: "Mã xác nhận là gì ?" },
+ inputPlaceholder: "Mã xác nhận là gì?" },
  function(inputValue){   
 if (inputValue === false) return false;   
-   if (inputValue !== "huyen") {   
-  swal.showInputError("Nhập sai rồi kìa:v");   
+   if (inputValue !== "huyền") {   
+  swal.showInputError("Nhập sai rồi kìa :v");   
   return false   }   
  
 setTimeout(function(){
@@ -38,7 +38,7 @@ setTimeout(function(){
 
 swal({  
  title: "Nhập tên món quà nào đó ", 
-  text: "Kiều Minh Hướng muốn nhận quà gì nào ? ",  
+  text: "Kiều Minh Hướng muốn nhận quà gì nào? ",  
  type: "input",  
  showCancelButton: true,  
  closeOnConfirm: false,   
@@ -50,7 +50,7 @@ if (inputValue === false) return false;
    if (inputValue === "") {   
   swal.showInputError("Không thể để trống được ");   
   return false   }  
- swal("OK ! ", "Món quà : " + inputValue + " sẽ tặng cho Kiều Minh Hướng trong 10s nữa hãy đợi nhé, Chúc một ngày Sinh Nhật thật Vui Vẻ nhé ^^   ", "success"); });
+ swal("OK ! ", "Món quà : " + inputValue + " sẽ tặng cho Kiều Minh Hướng vào 31/09 nhé!, Chúc một ngày Sinh Nhật thật Vui Vẻ nhé ^^   ", "success"); });
 
 
 },3000);
@@ -61,7 +61,7 @@ if (inputValue === false) return false;
 
  }
 else {   
-  swal("KHÔNG NHẬN ", "Bạn vừa từ chối món quà từ HUỲNH THANH TÙNG ,    Ấn F5 nếu muốn nhận lại quà :D ", "error"); 
+  swal("KHÔNG NHẬN ", "Bạn vừa từ chối món quà từ ĐẠO NGUYỄN,    Ấn F5 nếu muốn nhận lại quà :D ", "error"); 
 
   } });
 
